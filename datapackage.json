@@ -2514,6 +2514,2517 @@
           }
         }
       }
+    },
+    {
+      "bytes": 46941390,
+      "hash": "21edeb7b3294cbd5e097dbd6b7b551b35d79a01450a60b0880c66fff83686c68",
+      "format": "csv",
+      "schema": {
+        "fields": [
+          {
+            "title": "ejercicio",
+            "name": "ejercicio",
+            "slug": "ejercicio",
+            "type": "integer",
+            "format": "default",
+            "columnType": "date:fiscal-year",
+            "conceptType": "date",
+            "options": []
+          },
+          {
+            "title": "mes",
+            "name": "mes",
+            "slug": "mes",
+            "type": "string",
+            "format": "default",
+            "columnType": "unknown:string",
+            "conceptType": "unknown",
+            "options": []
+          },
+          {
+            "title": "titulo_codigo",
+            "name": "titulo_codigo",
+            "slug": "titulo_codigo",
+            "type": "string",
+            "format": "default",
+            "columnType": "administrative-classification:generic:level1:code",
+            "conceptType": "administrative-classification",
+            "options": []
+          },
+          {
+            "title": "titulo_descripcion",
+            "name": "titulo_descripcion",
+            "slug": "titulo_descripcion",
+            "type": "string",
+            "format": "default",
+            "columnType": "administrative-classification:generic:level1:label",
+            "conceptType": "administrative-classification",
+            "options": []
+          },
+          {
+            "title": "programa_codigo",
+            "name": "programa_codigo",
+            "slug": "programa_codigo",
+            "type": "string",
+            "format": "default",
+            "columnType": "administrative-classification:generic:level2:code",
+            "conceptType": "administrative-classification",
+            "options": []
+          },
+          {
+            "title": "programa_descripcion",
+            "name": "programa_descripcion",
+            "slug": "programa_descripcion",
+            "type": "string",
+            "format": "default",
+            "columnType": "administrative-classification:generic:level2:label",
+            "conceptType": "administrative-classification",
+            "options": []
+          },
+          {
+            "title": "subprograma_codigo",
+            "name": "subprograma_codigo",
+            "slug": "subprograma_codigo",
+            "type": "string",
+            "format": "default",
+            "columnType": "administrative-classification:generic:level3:code",
+            "conceptType": "administrative-classification",
+            "options": []
+          },
+          {
+            "title": "subprograma_descripcion",
+            "name": "subprograma_descripcion",
+            "slug": "subprograma_descripcion",
+            "type": "string",
+            "format": "default",
+            "columnType": "administrative-classification:generic:level3:label",
+            "conceptType": "administrative-classification",
+            "options": []
+          },
+          {
+            "title": "cog_partida_codigo",
+            "name": "cog_partida_codigo",
+            "slug": "cog_partida_codigo",
+            "type": "string",
+            "format": "default",
+            "columnType": "unknown:string",
+            "conceptType": "unknown",
+            "options": []
+          },
+          {
+            "title": "cog_partida_descripcion",
+            "name": "cog_partida_descripcion",
+            "slug": "cog_partida_descripcion",
+            "type": "string",
+            "format": "default",
+            "columnType": "unknown:string",
+            "conceptType": "unknown",
+            "options": []
+          },
+          {
+            "title": "cog_grupo_codigo",
+            "name": "cog_grupo_codigo",
+            "slug": "cog_grupo_codigo",
+            "type": "string",
+            "format": "default",
+            "columnType": "unknown:string",
+            "conceptType": "unknown",
+            "options": []
+          },
+          {
+            "title": "cog_grupo_descripcion",
+            "name": "cog_grupo_descripcion",
+            "slug": "cog_grupo_descripcion",
+            "type": "string",
+            "format": "default",
+            "columnType": "unknown:string",
+            "conceptType": "unknown",
+            "options": []
+          },
+          {
+            "title": "cog_subpartida_codigo",
+            "name": "cog_subpartida_codigo",
+            "slug": "cog_subpartida_codigo",
+            "type": "string",
+            "format": "default",
+            "columnType": "unknown:string",
+            "conceptType": "unknown",
+            "options": []
+          },
+          {
+            "title": "cog_subpartida_descripcion",
+            "name": "cog_subpartida_descripcion",
+            "slug": "cog_subpartida_descripcion",
+            "type": "string",
+            "format": "default",
+            "columnType": "unknown:string",
+            "conceptType": "unknown",
+            "options": []
+          },
+          {
+            "title": "ce_partida_codigo",
+            "name": "ce_partida_codigo",
+            "slug": "ce_partida_codigo",
+            "type": "string",
+            "format": "default",
+            "columnType": "economic-classification:generic:level1:code",
+            "conceptType": "economic-classification",
+            "options": []
+          },
+          {
+            "title": "ce_partida_descripcion",
+            "name": "ce_partida_descripcion",
+            "slug": "ce_partida_descripcion",
+            "type": "string",
+            "format": "default",
+            "columnType": "economic-classification:generic:level1:label",
+            "conceptType": "economic-classification",
+            "options": []
+          },
+          {
+            "title": "ce_grupo_codigo",
+            "name": "ce_grupo_codigo",
+            "slug": "ce_grupo_codigo",
+            "type": "string",
+            "format": "default",
+            "columnType": "economic-classification:generic:level2:code",
+            "conceptType": "economic-classification",
+            "options": []
+          },
+          {
+            "title": "ce_grupo_descripcion",
+            "name": "ce_grupo_descripcion",
+            "slug": "ce_grupo_descripcion",
+            "type": "string",
+            "format": "default",
+            "columnType": "economic-classification:gfsm:level2:label",
+            "conceptType": "economic-classification",
+            "options": []
+          },
+          {
+            "title": "ce_subpartida_codigo",
+            "name": "ce_subpartida_codigo",
+            "slug": "ce_subpartida_codigo",
+            "type": "string",
+            "format": "default",
+            "columnType": "economic-classification:generic:level3:code",
+            "conceptType": "economic-classification",
+            "options": []
+          },
+          {
+            "title": "ce_subpartida_descripcion",
+            "name": "ce_subpartida_descripcion",
+            "slug": "ce_subpartida_descripcion",
+            "type": "string",
+            "format": "default",
+            "columnType": "economic-classification:generic:level3:label",
+            "conceptType": "economic-classification",
+            "options": []
+          },
+          {
+            "title": "ce_renglon_codigo",
+            "name": "ce_renglon_codigo",
+            "slug": "ce_renglon_codigo",
+            "type": "string",
+            "format": "default",
+            "columnType": "economic-classification:generic:level4:code",
+            "conceptType": "economic-classification",
+            "options": []
+          },
+          {
+            "title": "ce_renglon_descripcion",
+            "name": "ce_renglon_descripcion",
+            "slug": "ce_renglon_descripcion",
+            "type": "string",
+            "format": "default",
+            "columnType": "economic-classification:generic:level4:label",
+            "conceptType": "economic-classification",
+            "options": []
+          },
+          {
+            "title": "cf_clase_codigo",
+            "name": "cf_clase_codigo",
+            "slug": "cf_clase_codigo",
+            "type": "string",
+            "format": "default",
+            "columnType": "functional-classification:generic:level1:code",
+            "conceptType": "functional-classification",
+            "options": []
+          },
+          {
+            "title": "cf_clase_descripcion",
+            "name": "cf_clase_descripcion",
+            "slug": "cf_clase_descripcion",
+            "type": "string",
+            "format": "default",
+            "columnType": "functional-classification:generic:level1:label",
+            "conceptType": "functional-classification",
+            "options": []
+          },
+          {
+            "title": "cf_subclase_codigo",
+            "name": "cf_subclase_codigo",
+            "slug": "cf_subclase_codigo",
+            "type": "string",
+            "format": "default",
+            "columnType": "functional-classification:generic:level2:code",
+            "conceptType": "functional-classification",
+            "options": []
+          },
+          {
+            "title": "cf_subclase_descripcion",
+            "name": "cf_subclase_descripcion",
+            "slug": "cf_subclase_descripcion",
+            "type": "string",
+            "format": "default",
+            "columnType": "functional-classification:generic:level2:label",
+            "conceptType": "functional-classification",
+            "options": []
+          },
+          {
+            "title": "cf_grupo_codigo",
+            "name": "cf_grupo_codigo",
+            "slug": "cf_grupo_codigo",
+            "type": "string",
+            "format": "default",
+            "columnType": "functional-classification:generic:level3:code",
+            "conceptType": "functional-classification",
+            "options": []
+          },
+          {
+            "title": "cf_grupo_descripcion",
+            "name": "cf_grupo_descripcion",
+            "slug": "cf_grupo_descripcion",
+            "type": "string",
+            "format": "default",
+            "columnType": "functional-classification:generic:level3:label",
+            "conceptType": "functional-classification",
+            "options": []
+          },
+          {
+            "title": "cf_subgrupo_codigo",
+            "name": "cf_subgrupo_codigo",
+            "slug": "cf_subgrupo_codigo",
+            "type": "string",
+            "format": "default",
+            "columnType": "functional-classification:generic:level4:code",
+            "conceptType": "functional-classification",
+            "options": []
+          },
+          {
+            "title": "cf_subgrupo_descripcion",
+            "name": "cf_subgrupo_descripcion",
+            "slug": "cf_subgrupo_descripcion",
+            "type": "string",
+            "format": "default",
+            "columnType": "functional-classification:generic:level4:label",
+            "conceptType": "functional-classification",
+            "options": []
+          },
+          {
+            "title": "ff_codigo",
+            "name": "ff_codigo",
+            "slug": "ff_codigo",
+            "type": "string",
+            "format": "default",
+            "columnType": "fin-source:generic:code",
+            "conceptType": "fin-source",
+            "options": []
+          },
+          {
+            "title": "ff_descripcion",
+            "name": "ff_descripcion",
+            "slug": "ff_descripcion",
+            "type": "string",
+            "format": "default",
+            "columnType": "fin-source:generic:label",
+            "conceptType": "fin-source",
+            "options": []
+          },
+          {
+            "title": "ff_clase1",
+            "name": "ff_clase1",
+            "slug": "ff_clase1",
+            "type": "string",
+            "format": "default",
+            "columnType": "unknown:string",
+            "conceptType": "unknown",
+            "options": []
+          },
+          {
+            "title": "ff_clase2",
+            "name": "ff_clase2",
+            "slug": "ff_clase2",
+            "type": "string",
+            "format": "default",
+            "columnType": "unknown:string",
+            "conceptType": "unknown",
+            "options": []
+          },
+          {
+            "title": "pi_monto",
+            "name": "pi_monto",
+            "slug": "pi_monto",
+            "type": "number",
+            "format": "default",
+            "columnType": "value",
+            "conceptType": "value",
+            "options": [
+              {
+                "name": "decimalChar",
+                "title": "Decimal Separator",
+                "defaultValue": ".",
+                "trim": "false"
+              },
+              {
+                "name": "groupChar",
+                "title": "Grouping Character",
+                "defaultValue": ",",
+                "trim": "false"
+              },
+              {
+                "name": "currency",
+                "title": "Currency",
+                "values": []
+              },
+              {
+                "name": "factor",
+                "title": "Factor",
+                "type": "number"
+              },
+              {
+                "name": "direction",
+                "title": "Direction",
+                "values": [
+                  {
+                    "name": "Expenditure",
+                    "value": "expenditure"
+                  },
+                  {
+                    "name": "Revenue",
+                    "value": "revenue"
+                  }
+                ]
+              },
+              {
+                "name": "phase",
+                "title": "Phase",
+                "values": [
+                  {
+                    "name": "Proposed",
+                    "value": "proposed"
+                  },
+                  {
+                    "name": "Approved",
+                    "value": "approved"
+                  },
+                  {
+                    "name": "Adjusted",
+                    "value": "adjusted"
+                  },
+                  {
+                    "name": "Executed",
+                    "value": "executed"
+                  }
+                ]
+              }
+            ],
+            "decimalChar": ".",
+            "groupChar": ","
+          },
+          {
+            "title": "pp_monto",
+            "name": "pp_monto",
+            "slug": "pp_monto",
+            "type": "number",
+            "format": "default",
+            "columnType": "value",
+            "conceptType": "value",
+            "options": [
+              {
+                "name": "decimalChar",
+                "title": "Decimal Separator",
+                "defaultValue": ".",
+                "trim": "false"
+              },
+              {
+                "name": "groupChar",
+                "title": "Grouping Character",
+                "defaultValue": ",",
+                "trim": "false"
+              },
+              {
+                "name": "currency",
+                "title": "Currency",
+                "values": []
+              },
+              {
+                "name": "factor",
+                "title": "Factor",
+                "type": "number"
+              },
+              {
+                "name": "direction",
+                "title": "Direction",
+                "values": [
+                  {
+                    "name": "Expenditure",
+                    "value": "expenditure"
+                  },
+                  {
+                    "name": "Revenue",
+                    "value": "revenue"
+                  }
+                ]
+              },
+              {
+                "name": "phase",
+                "title": "Phase",
+                "values": [
+                  {
+                    "name": "Proposed",
+                    "value": "proposed"
+                  },
+                  {
+                    "name": "Approved",
+                    "value": "approved"
+                  },
+                  {
+                    "name": "Adjusted",
+                    "value": "adjusted"
+                  },
+                  {
+                    "name": "Executed",
+                    "value": "executed"
+                  }
+                ]
+              }
+            ],
+            "decimalChar": ".",
+            "groupChar": ","
+          },
+          {
+            "title": "li_monto",
+            "name": "li_monto",
+            "slug": "li_monto",
+            "type": "number",
+            "format": "default",
+            "columnType": "value",
+            "conceptType": "value",
+            "options": [
+              {
+                "name": "decimalChar",
+                "title": "Decimal Separator",
+                "defaultValue": ".",
+                "trim": "false"
+              },
+              {
+                "name": "groupChar",
+                "title": "Grouping Character",
+                "defaultValue": ",",
+                "trim": "false"
+              },
+              {
+                "name": "currency",
+                "title": "Currency",
+                "values": []
+              },
+              {
+                "name": "factor",
+                "title": "Factor",
+                "type": "number"
+              },
+              {
+                "name": "direction",
+                "title": "Direction",
+                "values": [
+                  {
+                    "name": "Expenditure",
+                    "value": "expenditure"
+                  },
+                  {
+                    "name": "Revenue",
+                    "value": "revenue"
+                  }
+                ]
+              },
+              {
+                "name": "phase",
+                "title": "Phase",
+                "values": [
+                  {
+                    "name": "Proposed",
+                    "value": "proposed"
+                  },
+                  {
+                    "name": "Approved",
+                    "value": "approved"
+                  },
+                  {
+                    "name": "Adjusted",
+                    "value": "adjusted"
+                  },
+                  {
+                    "name": "Executed",
+                    "value": "executed"
+                  }
+                ]
+              }
+            ],
+            "decimalChar": ".",
+            "groupChar": ","
+          },
+          {
+            "title": "so_monto",
+            "name": "so_monto",
+            "slug": "so_monto",
+            "type": "number",
+            "format": "default",
+            "columnType": "value",
+            "conceptType": "value",
+            "options": [
+              {
+                "name": "decimalChar",
+                "title": "Decimal Separator",
+                "defaultValue": ".",
+                "trim": "false"
+              },
+              {
+                "name": "groupChar",
+                "title": "Grouping Character",
+                "defaultValue": ",",
+                "trim": "false"
+              },
+              {
+                "name": "currency",
+                "title": "Currency",
+                "values": []
+              },
+              {
+                "name": "factor",
+                "title": "Factor",
+                "type": "number"
+              },
+              {
+                "name": "direction",
+                "title": "Direction",
+                "values": [
+                  {
+                    "name": "Expenditure",
+                    "value": "expenditure"
+                  },
+                  {
+                    "name": "Revenue",
+                    "value": "revenue"
+                  }
+                ]
+              },
+              {
+                "name": "phase",
+                "title": "Phase",
+                "values": [
+                  {
+                    "name": "Proposed",
+                    "value": "proposed"
+                  },
+                  {
+                    "name": "Approved",
+                    "value": "approved"
+                  },
+                  {
+                    "name": "Adjusted",
+                    "value": "adjusted"
+                  },
+                  {
+                    "name": "Executed",
+                    "value": "executed"
+                  }
+                ]
+              }
+            ],
+            "decimalChar": ".",
+            "groupChar": ","
+          },
+          {
+            "title": "co_monto",
+            "name": "co_monto",
+            "slug": "co_monto",
+            "type": "number",
+            "format": "default",
+            "columnType": "value",
+            "conceptType": "value",
+            "options": [
+              {
+                "name": "decimalChar",
+                "title": "Decimal Separator",
+                "defaultValue": ".",
+                "trim": "false"
+              },
+              {
+                "name": "groupChar",
+                "title": "Grouping Character",
+                "defaultValue": ",",
+                "trim": "false"
+              },
+              {
+                "name": "currency",
+                "title": "Currency",
+                "values": []
+              },
+              {
+                "name": "factor",
+                "title": "Factor",
+                "type": "number"
+              },
+              {
+                "name": "direction",
+                "title": "Direction",
+                "values": [
+                  {
+                    "name": "Expenditure",
+                    "value": "expenditure"
+                  },
+                  {
+                    "name": "Revenue",
+                    "value": "revenue"
+                  }
+                ]
+              },
+              {
+                "name": "phase",
+                "title": "Phase",
+                "values": [
+                  {
+                    "name": "Proposed",
+                    "value": "proposed"
+                  },
+                  {
+                    "name": "Approved",
+                    "value": "approved"
+                  },
+                  {
+                    "name": "Adjusted",
+                    "value": "adjusted"
+                  },
+                  {
+                    "name": "Executed",
+                    "value": "executed"
+                  }
+                ]
+              }
+            ],
+            "decimalChar": ".",
+            "groupChar": ","
+          },
+          {
+            "title": "rm_monto",
+            "name": "rm_monto",
+            "slug": "rm_monto",
+            "type": "number",
+            "format": "default",
+            "columnType": "value",
+            "conceptType": "value",
+            "options": [
+              {
+                "name": "decimalChar",
+                "title": "Decimal Separator",
+                "defaultValue": ".",
+                "trim": "false"
+              },
+              {
+                "name": "groupChar",
+                "title": "Grouping Character",
+                "defaultValue": ",",
+                "trim": "false"
+              },
+              {
+                "name": "currency",
+                "title": "Currency",
+                "values": []
+              },
+              {
+                "name": "factor",
+                "title": "Factor",
+                "type": "number"
+              },
+              {
+                "name": "direction",
+                "title": "Direction",
+                "values": [
+                  {
+                    "name": "Expenditure",
+                    "value": "expenditure"
+                  },
+                  {
+                    "name": "Revenue",
+                    "value": "revenue"
+                  }
+                ]
+              },
+              {
+                "name": "phase",
+                "title": "Phase",
+                "values": [
+                  {
+                    "name": "Proposed",
+                    "value": "proposed"
+                  },
+                  {
+                    "name": "Approved",
+                    "value": "approved"
+                  },
+                  {
+                    "name": "Adjusted",
+                    "value": "adjusted"
+                  },
+                  {
+                    "name": "Executed",
+                    "value": "executed"
+                  }
+                ]
+              }
+            ],
+            "decimalChar": ".",
+            "groupChar": ","
+          },
+          {
+            "title": "de_monto",
+            "name": "de_monto",
+            "slug": "de_monto",
+            "type": "number",
+            "format": "default",
+            "columnType": "value",
+            "conceptType": "value",
+            "options": [
+              {
+                "name": "decimalChar",
+                "title": "Decimal Separator",
+                "defaultValue": ".",
+                "trim": "false"
+              },
+              {
+                "name": "groupChar",
+                "title": "Grouping Character",
+                "defaultValue": ",",
+                "trim": "false"
+              },
+              {
+                "name": "currency",
+                "title": "Currency",
+                "values": []
+              },
+              {
+                "name": "factor",
+                "title": "Factor",
+                "type": "number"
+              },
+              {
+                "name": "direction",
+                "title": "Direction",
+                "values": [
+                  {
+                    "name": "Expenditure",
+                    "value": "expenditure"
+                  },
+                  {
+                    "name": "Revenue",
+                    "value": "revenue"
+                  }
+                ]
+              },
+              {
+                "name": "phase",
+                "title": "Phase",
+                "values": [
+                  {
+                    "name": "Proposed",
+                    "value": "proposed"
+                  },
+                  {
+                    "name": "Approved",
+                    "value": "approved"
+                  },
+                  {
+                    "name": "Adjusted",
+                    "value": "adjusted"
+                  },
+                  {
+                    "name": "Executed",
+                    "value": "executed"
+                  }
+                ]
+              }
+            ],
+            "decimalChar": ".",
+            "groupChar": ","
+          },
+          {
+            "title": "pa_monto",
+            "name": "pa_monto",
+            "slug": "pa_monto",
+            "type": "number",
+            "format": "default",
+            "columnType": "value",
+            "conceptType": "value",
+            "options": [
+              {
+                "name": "decimalChar",
+                "title": "Decimal Separator",
+                "defaultValue": ".",
+                "trim": "false"
+              },
+              {
+                "name": "groupChar",
+                "title": "Grouping Character",
+                "defaultValue": ",",
+                "trim": "false"
+              },
+              {
+                "name": "currency",
+                "title": "Currency",
+                "values": []
+              },
+              {
+                "name": "factor",
+                "title": "Factor",
+                "type": "number"
+              },
+              {
+                "name": "direction",
+                "title": "Direction",
+                "values": [
+                  {
+                    "name": "Expenditure",
+                    "value": "expenditure"
+                  },
+                  {
+                    "name": "Revenue",
+                    "value": "revenue"
+                  }
+                ]
+              },
+              {
+                "name": "phase",
+                "title": "Phase",
+                "values": [
+                  {
+                    "name": "Proposed",
+                    "value": "proposed"
+                  },
+                  {
+                    "name": "Approved",
+                    "value": "approved"
+                  },
+                  {
+                    "name": "Adjusted",
+                    "value": "adjusted"
+                  },
+                  {
+                    "name": "Executed",
+                    "value": "executed"
+                  }
+                ]
+              }
+            ],
+            "decimalChar": ".",
+            "groupChar": ","
+          }
+        ],
+        "missingValues": [
+          ""
+        ]
+      },
+      "encoding": "utf-8",
+      "mediatype": "text/csv",
+      "name": "egreso2018ene_dic__2018.csv",
+      "dialect": {
+        "delimiter": ",",
+        "quoteChar": "\""
+      },
+      "path": "data/egreso2018ene_dic__2018.csv",
+      "hashcopy": "f89635855680026f20f2d0310d8f41cc0eb3b2199b1d8eb8fbe9913e11639500",
+      "sample": [
+        [
+          "ejercicio",
+          "mes",
+          "titulo_codigo",
+          "titulo_descripcion",
+          "programa_codigo",
+          "programa_descripcion",
+          "subprograma_codigo",
+          "subprograma_descripcion",
+          "cog_partida_codigo",
+          "cog_partida_descripcion",
+          "cog_grupo_codigo",
+          "cog_grupo_descripcion",
+          "cog_subpartida_codigo",
+          "cog_subpartida_descripcion",
+          "ce_partida_codigo",
+          "ce_partida_descripcion",
+          "ce_grupo_codigo",
+          "ce_grupo_descripcion",
+          "ce_subpartida_codigo",
+          "ce_subpartida_descripcion",
+          "ce_renglon_codigo",
+          "ce_renglon_descripcion",
+          "cf_clase_codigo",
+          "cf_clase_descripcion",
+          "cf_subclase_codigo",
+          "cf_subclase_descripcion",
+          "cf_grupo_codigo",
+          "cf_grupo_descripcion",
+          "cf_subgrupo_codigo",
+          "cf_subgrupo_descripcion",
+          "ff_codigo",
+          "ff_descripcion",
+          "ff_clase1",
+          "ff_clase2",
+          "pi_monto",
+          "pp_monto",
+          "li_monto",
+          "so_monto",
+          "co_monto",
+          "rm_monto",
+          "de_monto",
+          "pa_monto"
+        ],
+        [
+          "2018",
+          "01",
+          "101",
+          "Asamblea Legislativa",
+          "002",
+          "Asamblea Legislativa",
+          "00",
+          "",
+          "0",
+          "REMUNERACIONES",
+          "001",
+          "REMUNERACIONES BASICAS",
+          "00101",
+          "SUELDOS PARA CARGOS FIJOS",
+          "1",
+          "GASTOS CORRIENTES",
+          "11",
+          "GASTOS DE CONSUMO",
+          "111",
+          "REMUNERACIONES",
+          "1111",
+          "SUELDOS Y SALARIOS",
+          "1",
+          "FUNCIONES DE SERVICIOS PUBLICOS GENERALES",
+          "11",
+          "SERVICIOS PUBLICOS GENERALES",
+          "112",
+          "AYUDA ECONOMICA EXTERIOR",
+          "1120",
+          "AYUDA ECONOMICA EXTERIOR",
+          "001",
+          "Ingresos Corrientes",
+          "Ingresos Corrientes",
+          "INTERNO",
+          "7611806243.00",
+          "7611806243.00",
+          "7611806243.00",
+          "0.00",
+          "842551.83",
+          "0.00",
+          "558587186.39",
+          "558587186.39"
+        ],
+        [
+          "2018",
+          "02",
+          "101",
+          "Asamblea Legislativa",
+          "002",
+          "Asamblea Legislativa",
+          "00",
+          "",
+          "0",
+          "REMUNERACIONES",
+          "001",
+          "REMUNERACIONES BASICAS",
+          "00101",
+          "SUELDOS PARA CARGOS FIJOS",
+          "1",
+          "GASTOS CORRIENTES",
+          "11",
+          "GASTOS DE CONSUMO",
+          "111",
+          "REMUNERACIONES",
+          "1111",
+          "SUELDOS Y SALARIOS",
+          "1",
+          "FUNCIONES DE SERVICIOS PUBLICOS GENERALES",
+          "11",
+          "SERVICIOS PUBLICOS GENERALES",
+          "112",
+          "AYUDA ECONOMICA EXTERIOR",
+          "1120",
+          "AYUDA ECONOMICA EXTERIOR",
+          "001",
+          "Ingresos Corrientes",
+          "Ingresos Corrientes",
+          "INTERNO",
+          "7611806243.00",
+          "7611806243.00",
+          "7611806243.00",
+          "0.00",
+          "842551.83",
+          "0.00",
+          "1113131248.36",
+          "1113131248.36"
+        ],
+        [
+          "2018",
+          "03",
+          "101",
+          "Asamblea Legislativa",
+          "002",
+          "Asamblea Legislativa",
+          "00",
+          "",
+          "0",
+          "REMUNERACIONES",
+          "001",
+          "REMUNERACIONES BASICAS",
+          "00101",
+          "SUELDOS PARA CARGOS FIJOS",
+          "1",
+          "GASTOS CORRIENTES",
+          "11",
+          "GASTOS DE CONSUMO",
+          "111",
+          "REMUNERACIONES",
+          "1111",
+          "SUELDOS Y SALARIOS",
+          "1",
+          "FUNCIONES DE SERVICIOS PUBLICOS GENERALES",
+          "11",
+          "SERVICIOS PUBLICOS GENERALES",
+          "112",
+          "AYUDA ECONOMICA EXTERIOR",
+          "1120",
+          "AYUDA ECONOMICA EXTERIOR",
+          "001",
+          "Ingresos Corrientes",
+          "Ingresos Corrientes",
+          "INTERNO",
+          "7611806243.00",
+          "7611806243.00",
+          "7611806243.00",
+          "0.00",
+          "842551.83",
+          "0.00",
+          "1710170557.10",
+          "1710170557.10"
+        ],
+        [
+          "2018",
+          "04",
+          "101",
+          "Asamblea Legislativa",
+          "002",
+          "Asamblea Legislativa",
+          "00",
+          "",
+          "0",
+          "REMUNERACIONES",
+          "001",
+          "REMUNERACIONES BASICAS",
+          "00101",
+          "SUELDOS PARA CARGOS FIJOS",
+          "1",
+          "GASTOS CORRIENTES",
+          "11",
+          "GASTOS DE CONSUMO",
+          "111",
+          "REMUNERACIONES",
+          "1111",
+          "SUELDOS Y SALARIOS",
+          "1",
+          "FUNCIONES DE SERVICIOS PUBLICOS GENERALES",
+          "11",
+          "SERVICIOS PUBLICOS GENERALES",
+          "112",
+          "AYUDA ECONOMICA EXTERIOR",
+          "1120",
+          "AYUDA ECONOMICA EXTERIOR",
+          "001",
+          "Ingresos Corrientes",
+          "Ingresos Corrientes",
+          "INTERNO",
+          "7611806243.00",
+          "7611806243.00",
+          "7611806243.00",
+          "0.00",
+          "842551.83",
+          "0.00",
+          "2288318257.88",
+          "2288318257.88"
+        ],
+        [
+          "2018",
+          "05",
+          "101",
+          "Asamblea Legislativa",
+          "002",
+          "Asamblea Legislativa",
+          "00",
+          "",
+          "0",
+          "REMUNERACIONES",
+          "001",
+          "REMUNERACIONES BASICAS",
+          "00101",
+          "SUELDOS PARA CARGOS FIJOS",
+          "1",
+          "GASTOS CORRIENTES",
+          "11",
+          "GASTOS DE CONSUMO",
+          "111",
+          "REMUNERACIONES",
+          "1111",
+          "SUELDOS Y SALARIOS",
+          "1",
+          "FUNCIONES DE SERVICIOS PUBLICOS GENERALES",
+          "11",
+          "SERVICIOS PUBLICOS GENERALES",
+          "112",
+          "AYUDA ECONOMICA EXTERIOR",
+          "1120",
+          "AYUDA ECONOMICA EXTERIOR",
+          "001",
+          "Ingresos Corrientes",
+          "Ingresos Corrientes",
+          "INTERNO",
+          "7611806243.00",
+          "7611806243.00",
+          "7611806243.00",
+          "0.00",
+          "842551.83",
+          "0.00",
+          "2802009392.48",
+          "2802009392.48"
+        ],
+        [
+          "2018",
+          "06",
+          "101",
+          "Asamblea Legislativa",
+          "002",
+          "Asamblea Legislativa",
+          "00",
+          "",
+          "0",
+          "REMUNERACIONES",
+          "001",
+          "REMUNERACIONES BASICAS",
+          "00101",
+          "SUELDOS PARA CARGOS FIJOS",
+          "1",
+          "GASTOS CORRIENTES",
+          "11",
+          "GASTOS DE CONSUMO",
+          "111",
+          "REMUNERACIONES",
+          "1111",
+          "SUELDOS Y SALARIOS",
+          "1",
+          "FUNCIONES DE SERVICIOS PUBLICOS GENERALES",
+          "11",
+          "SERVICIOS PUBLICOS GENERALES",
+          "112",
+          "AYUDA ECONOMICA EXTERIOR",
+          "1120",
+          "AYUDA ECONOMICA EXTERIOR",
+          "001",
+          "Ingresos Corrientes",
+          "Ingresos Corrientes",
+          "INTERNO",
+          "7611806243.00",
+          "7611806243.00",
+          "7611806243.00",
+          "0.00",
+          "842551.83",
+          "0.00",
+          "3418427563.12",
+          "3418427563.12"
+        ],
+        [
+          "2018",
+          "07",
+          "101",
+          "Asamblea Legislativa",
+          "002",
+          "Asamblea Legislativa",
+          "00",
+          "",
+          "0",
+          "REMUNERACIONES",
+          "001",
+          "REMUNERACIONES BASICAS",
+          "00101",
+          "SUELDOS PARA CARGOS FIJOS",
+          "1",
+          "GASTOS CORRIENTES",
+          "11",
+          "GASTOS DE CONSUMO",
+          "111",
+          "REMUNERACIONES",
+          "1111",
+          "SUELDOS Y SALARIOS",
+          "1",
+          "FUNCIONES DE SERVICIOS PUBLICOS GENERALES",
+          "11",
+          "SERVICIOS PUBLICOS GENERALES",
+          "112",
+          "AYUDA ECONOMICA EXTERIOR",
+          "1120",
+          "AYUDA ECONOMICA EXTERIOR",
+          "001",
+          "Ingresos Corrientes",
+          "Ingresos Corrientes",
+          "INTERNO",
+          "7611806243.00",
+          "7611806243.00",
+          "7611806243.00",
+          "0.00",
+          "842551.83",
+          "0.00",
+          "3997020241.19",
+          "3997020241.19"
+        ],
+        [
+          "2018",
+          "08",
+          "101",
+          "Asamblea Legislativa",
+          "002",
+          "Asamblea Legislativa",
+          "00",
+          "",
+          "0",
+          "REMUNERACIONES",
+          "001",
+          "REMUNERACIONES BASICAS",
+          "00101",
+          "SUELDOS PARA CARGOS FIJOS",
+          "1",
+          "GASTOS CORRIENTES",
+          "11",
+          "GASTOS DE CONSUMO",
+          "111",
+          "REMUNERACIONES",
+          "1111",
+          "SUELDOS Y SALARIOS",
+          "1",
+          "FUNCIONES DE SERVICIOS PUBLICOS GENERALES",
+          "11",
+          "SERVICIOS PUBLICOS GENERALES",
+          "112",
+          "AYUDA ECONOMICA EXTERIOR",
+          "1120",
+          "AYUDA ECONOMICA EXTERIOR",
+          "001",
+          "Ingresos Corrientes",
+          "Ingresos Corrientes",
+          "INTERNO",
+          "7611806243.00",
+          "7611806243.00",
+          "7611806243.00",
+          "0.00",
+          "842551.83",
+          "0.00",
+          "4570933465.36",
+          "4570933465.36"
+        ],
+        [
+          "2018",
+          "09",
+          "101",
+          "Asamblea Legislativa",
+          "002",
+          "Asamblea Legislativa",
+          "00",
+          "",
+          "0",
+          "REMUNERACIONES",
+          "001",
+          "REMUNERACIONES BASICAS",
+          "00101",
+          "SUELDOS PARA CARGOS FIJOS",
+          "1",
+          "GASTOS CORRIENTES",
+          "11",
+          "GASTOS DE CONSUMO",
+          "111",
+          "REMUNERACIONES",
+          "1111",
+          "SUELDOS Y SALARIOS",
+          "1",
+          "FUNCIONES DE SERVICIOS PUBLICOS GENERALES",
+          "11",
+          "SERVICIOS PUBLICOS GENERALES",
+          "112",
+          "AYUDA ECONOMICA EXTERIOR",
+          "1120",
+          "AYUDA ECONOMICA EXTERIOR",
+          "001",
+          "Ingresos Corrientes",
+          "Ingresos Corrientes",
+          "INTERNO",
+          "7611806243.00",
+          "7611806243.00",
+          "7611806243.00",
+          "0.00",
+          "842551.83",
+          "0.00",
+          "5158347253.73",
+          "5158347253.73"
+        ],
+        [
+          "2018",
+          "10",
+          "101",
+          "Asamblea Legislativa",
+          "002",
+          "Asamblea Legislativa",
+          "00",
+          "",
+          "0",
+          "REMUNERACIONES",
+          "001",
+          "REMUNERACIONES BASICAS",
+          "00101",
+          "SUELDOS PARA CARGOS FIJOS",
+          "1",
+          "GASTOS CORRIENTES",
+          "11",
+          "GASTOS DE CONSUMO",
+          "111",
+          "REMUNERACIONES",
+          "1111",
+          "SUELDOS Y SALARIOS",
+          "1",
+          "FUNCIONES DE SERVICIOS PUBLICOS GENERALES",
+          "11",
+          "SERVICIOS PUBLICOS GENERALES",
+          "112",
+          "AYUDA ECONOMICA EXTERIOR",
+          "1120",
+          "AYUDA ECONOMICA EXTERIOR",
+          "001",
+          "Ingresos Corrientes",
+          "Ingresos Corrientes",
+          "INTERNO",
+          "7611806243.00",
+          "7611806243.00",
+          "7611806243.00",
+          "0.00",
+          "842551.83",
+          "0.00",
+          "5735599899.77",
+          "5735599899.77"
+        ],
+        [
+          "2018",
+          "11",
+          "101",
+          "Asamblea Legislativa",
+          "002",
+          "Asamblea Legislativa",
+          "00",
+          "",
+          "0",
+          "REMUNERACIONES",
+          "001",
+          "REMUNERACIONES BASICAS",
+          "00101",
+          "SUELDOS PARA CARGOS FIJOS",
+          "1",
+          "GASTOS CORRIENTES",
+          "11",
+          "GASTOS DE CONSUMO",
+          "111",
+          "REMUNERACIONES",
+          "1111",
+          "SUELDOS Y SALARIOS",
+          "1",
+          "FUNCIONES DE SERVICIOS PUBLICOS GENERALES",
+          "11",
+          "SERVICIOS PUBLICOS GENERALES",
+          "112",
+          "AYUDA ECONOMICA EXTERIOR",
+          "1120",
+          "AYUDA ECONOMICA EXTERIOR",
+          "001",
+          "Ingresos Corrientes",
+          "Ingresos Corrientes",
+          "INTERNO",
+          "7611806243.00",
+          "7561806243.00",
+          "7561806243.00",
+          "0.00",
+          "289700146.63",
+          "0.00",
+          "6310278003.75",
+          "6310278003.75"
+        ],
+        [
+          "2018",
+          "12",
+          "101",
+          "Asamblea Legislativa",
+          "002",
+          "Asamblea Legislativa",
+          "00",
+          "",
+          "0",
+          "REMUNERACIONES",
+          "001",
+          "REMUNERACIONES BASICAS",
+          "00101",
+          "SUELDOS PARA CARGOS FIJOS",
+          "1",
+          "GASTOS CORRIENTES",
+          "11",
+          "GASTOS DE CONSUMO",
+          "111",
+          "REMUNERACIONES",
+          "1111",
+          "SUELDOS Y SALARIOS",
+          "1",
+          "FUNCIONES DE SERVICIOS PUBLICOS GENERALES",
+          "11",
+          "SERVICIOS PUBLICOS GENERALES",
+          "112",
+          "AYUDA ECONOMICA EXTERIOR",
+          "1120",
+          "AYUDA ECONOMICA EXTERIOR",
+          "001",
+          "Ingresos Corrientes",
+          "Ingresos Corrientes",
+          "INTERNO",
+          "7611806243.00",
+          "7561806243.00",
+          "7561806243.00",
+          "0.00",
+          "0.00",
+          "0.00",
+          "6874736053.05",
+          "6874736053.05"
+        ],
+        [
+          "2018",
+          "01",
+          "101",
+          "Asamblea Legislativa",
+          "002",
+          "Asamblea Legislativa",
+          "00",
+          "",
+          "0",
+          "REMUNERACIONES",
+          "001",
+          "REMUNERACIONES BASICAS",
+          "00105",
+          "SUPLENCIAS",
+          "1",
+          "GASTOS CORRIENTES",
+          "11",
+          "GASTOS DE CONSUMO",
+          "111",
+          "REMUNERACIONES",
+          "1111",
+          "SUELDOS Y SALARIOS",
+          "1",
+          "FUNCIONES DE SERVICIOS PUBLICOS GENERALES",
+          "11",
+          "SERVICIOS PUBLICOS GENERALES",
+          "112",
+          "AYUDA ECONOMICA EXTERIOR",
+          "1120",
+          "AYUDA ECONOMICA EXTERIOR",
+          "001",
+          "Ingresos Corrientes",
+          "Ingresos Corrientes",
+          "INTERNO",
+          "160000000.00",
+          "160000000.00",
+          "160000000.00",
+          "0.00",
+          "0.00",
+          "0.00",
+          "10171450.78",
+          "10171450.78"
+        ],
+        [
+          "2018",
+          "02",
+          "101",
+          "Asamblea Legislativa",
+          "002",
+          "Asamblea Legislativa",
+          "00",
+          "",
+          "0",
+          "REMUNERACIONES",
+          "001",
+          "REMUNERACIONES BASICAS",
+          "00105",
+          "SUPLENCIAS",
+          "1",
+          "GASTOS CORRIENTES",
+          "11",
+          "GASTOS DE CONSUMO",
+          "111",
+          "REMUNERACIONES",
+          "1111",
+          "SUELDOS Y SALARIOS",
+          "1",
+          "FUNCIONES DE SERVICIOS PUBLICOS GENERALES",
+          "11",
+          "SERVICIOS PUBLICOS GENERALES",
+          "112",
+          "AYUDA ECONOMICA EXTERIOR",
+          "1120",
+          "AYUDA ECONOMICA EXTERIOR",
+          "001",
+          "Ingresos Corrientes",
+          "Ingresos Corrientes",
+          "INTERNO",
+          "160000000.00",
+          "160000000.00",
+          "160000000.00",
+          "0.00",
+          "0.00",
+          "0.00",
+          "22343538.23",
+          "22343538.23"
+        ],
+        [
+          "2018",
+          "03",
+          "101",
+          "Asamblea Legislativa",
+          "002",
+          "Asamblea Legislativa",
+          "00",
+          "",
+          "0",
+          "REMUNERACIONES",
+          "001",
+          "REMUNERACIONES BASICAS",
+          "00105",
+          "SUPLENCIAS",
+          "1",
+          "GASTOS CORRIENTES",
+          "11",
+          "GASTOS DE CONSUMO",
+          "111",
+          "REMUNERACIONES",
+          "1111",
+          "SUELDOS Y SALARIOS",
+          "1",
+          "FUNCIONES DE SERVICIOS PUBLICOS GENERALES",
+          "11",
+          "SERVICIOS PUBLICOS GENERALES",
+          "112",
+          "AYUDA ECONOMICA EXTERIOR",
+          "1120",
+          "AYUDA ECONOMICA EXTERIOR",
+          "001",
+          "Ingresos Corrientes",
+          "Ingresos Corrientes",
+          "INTERNO",
+          "160000000.00",
+          "160000000.00",
+          "160000000.00",
+          "0.00",
+          "0.00",
+          "0.00",
+          "30954564.94",
+          "30954564.94"
+        ],
+        [
+          "2018",
+          "04",
+          "101",
+          "Asamblea Legislativa",
+          "002",
+          "Asamblea Legislativa",
+          "00",
+          "",
+          "0",
+          "REMUNERACIONES",
+          "001",
+          "REMUNERACIONES BASICAS",
+          "00105",
+          "SUPLENCIAS",
+          "1",
+          "GASTOS CORRIENTES",
+          "11",
+          "GASTOS DE CONSUMO",
+          "111",
+          "REMUNERACIONES",
+          "1111",
+          "SUELDOS Y SALARIOS",
+          "1",
+          "FUNCIONES DE SERVICIOS PUBLICOS GENERALES",
+          "11",
+          "SERVICIOS PUBLICOS GENERALES",
+          "112",
+          "AYUDA ECONOMICA EXTERIOR",
+          "1120",
+          "AYUDA ECONOMICA EXTERIOR",
+          "001",
+          "Ingresos Corrientes",
+          "Ingresos Corrientes",
+          "INTERNO",
+          "160000000.00",
+          "160000000.00",
+          "160000000.00",
+          "0.00",
+          "0.00",
+          "0.00",
+          "37891485.63",
+          "37891485.63"
+        ],
+        [
+          "2018",
+          "05",
+          "101",
+          "Asamblea Legislativa",
+          "002",
+          "Asamblea Legislativa",
+          "00",
+          "",
+          "0",
+          "REMUNERACIONES",
+          "001",
+          "REMUNERACIONES BASICAS",
+          "00105",
+          "SUPLENCIAS",
+          "1",
+          "GASTOS CORRIENTES",
+          "11",
+          "GASTOS DE CONSUMO",
+          "111",
+          "REMUNERACIONES",
+          "1111",
+          "SUELDOS Y SALARIOS",
+          "1",
+          "FUNCIONES DE SERVICIOS PUBLICOS GENERALES",
+          "11",
+          "SERVICIOS PUBLICOS GENERALES",
+          "112",
+          "AYUDA ECONOMICA EXTERIOR",
+          "1120",
+          "AYUDA ECONOMICA EXTERIOR",
+          "001",
+          "Ingresos Corrientes",
+          "Ingresos Corrientes",
+          "INTERNO",
+          "160000000.00",
+          "160000000.00",
+          "160000000.00",
+          "0.00",
+          "0.00",
+          "0.00",
+          "44376135.68",
+          "44376135.68"
+        ],
+        [
+          "2018",
+          "06",
+          "101",
+          "Asamblea Legislativa",
+          "002",
+          "Asamblea Legislativa",
+          "00",
+          "",
+          "0",
+          "REMUNERACIONES",
+          "001",
+          "REMUNERACIONES BASICAS",
+          "00105",
+          "SUPLENCIAS",
+          "1",
+          "GASTOS CORRIENTES",
+          "11",
+          "GASTOS DE CONSUMO",
+          "111",
+          "REMUNERACIONES",
+          "1111",
+          "SUELDOS Y SALARIOS",
+          "1",
+          "FUNCIONES DE SERVICIOS PUBLICOS GENERALES",
+          "11",
+          "SERVICIOS PUBLICOS GENERALES",
+          "112",
+          "AYUDA ECONOMICA EXTERIOR",
+          "1120",
+          "AYUDA ECONOMICA EXTERIOR",
+          "001",
+          "Ingresos Corrientes",
+          "Ingresos Corrientes",
+          "INTERNO",
+          "160000000.00",
+          "160000000.00",
+          "160000000.00",
+          "0.00",
+          "0.00",
+          "0.00",
+          "50638229.85",
+          "50638229.85"
+        ],
+        [
+          "2018",
+          "07",
+          "101",
+          "Asamblea Legislativa",
+          "002",
+          "Asamblea Legislativa",
+          "00",
+          "",
+          "0",
+          "REMUNERACIONES",
+          "001",
+          "REMUNERACIONES BASICAS",
+          "00105",
+          "SUPLENCIAS",
+          "1",
+          "GASTOS CORRIENTES",
+          "11",
+          "GASTOS DE CONSUMO",
+          "111",
+          "REMUNERACIONES",
+          "1111",
+          "SUELDOS Y SALARIOS",
+          "1",
+          "FUNCIONES DE SERVICIOS PUBLICOS GENERALES",
+          "11",
+          "SERVICIOS PUBLICOS GENERALES",
+          "112",
+          "AYUDA ECONOMICA EXTERIOR",
+          "1120",
+          "AYUDA ECONOMICA EXTERIOR",
+          "001",
+          "Ingresos Corrientes",
+          "Ingresos Corrientes",
+          "INTERNO",
+          "160000000.00",
+          "160000000.00",
+          "160000000.00",
+          "0.00",
+          "0.00",
+          "0.00",
+          "55594799.46",
+          "55594799.46"
+        ],
+        [
+          "2018",
+          "08",
+          "101",
+          "Asamblea Legislativa",
+          "002",
+          "Asamblea Legislativa",
+          "00",
+          "",
+          "0",
+          "REMUNERACIONES",
+          "001",
+          "REMUNERACIONES BASICAS",
+          "00105",
+          "SUPLENCIAS",
+          "1",
+          "GASTOS CORRIENTES",
+          "11",
+          "GASTOS DE CONSUMO",
+          "111",
+          "REMUNERACIONES",
+          "1111",
+          "SUELDOS Y SALARIOS",
+          "1",
+          "FUNCIONES DE SERVICIOS PUBLICOS GENERALES",
+          "11",
+          "SERVICIOS PUBLICOS GENERALES",
+          "112",
+          "AYUDA ECONOMICA EXTERIOR",
+          "1120",
+          "AYUDA ECONOMICA EXTERIOR",
+          "001",
+          "Ingresos Corrientes",
+          "Ingresos Corrientes",
+          "INTERNO",
+          "160000000.00",
+          "160000000.00",
+          "160000000.00",
+          "0.00",
+          "0.00",
+          "0.00",
+          "62609439.14",
+          "62609439.14"
+        ],
+        [
+          "2018",
+          "09",
+          "101",
+          "Asamblea Legislativa",
+          "002",
+          "Asamblea Legislativa",
+          "00",
+          "",
+          "0",
+          "REMUNERACIONES",
+          "001",
+          "REMUNERACIONES BASICAS",
+          "00105",
+          "SUPLENCIAS",
+          "1",
+          "GASTOS CORRIENTES",
+          "11",
+          "GASTOS DE CONSUMO",
+          "111",
+          "REMUNERACIONES",
+          "1111",
+          "SUELDOS Y SALARIOS",
+          "1",
+          "FUNCIONES DE SERVICIOS PUBLICOS GENERALES",
+          "11",
+          "SERVICIOS PUBLICOS GENERALES",
+          "112",
+          "AYUDA ECONOMICA EXTERIOR",
+          "1120",
+          "AYUDA ECONOMICA EXTERIOR",
+          "001",
+          "Ingresos Corrientes",
+          "Ingresos Corrientes",
+          "INTERNO",
+          "160000000.00",
+          "160000000.00",
+          "160000000.00",
+          "0.00",
+          "0.00",
+          "0.00",
+          "70802369.59",
+          "70802369.59"
+        ],
+        [
+          "2018",
+          "10",
+          "101",
+          "Asamblea Legislativa",
+          "002",
+          "Asamblea Legislativa",
+          "00",
+          "",
+          "0",
+          "REMUNERACIONES",
+          "001",
+          "REMUNERACIONES BASICAS",
+          "00105",
+          "SUPLENCIAS",
+          "1",
+          "GASTOS CORRIENTES",
+          "11",
+          "GASTOS DE CONSUMO",
+          "111",
+          "REMUNERACIONES",
+          "1111",
+          "SUELDOS Y SALARIOS",
+          "1",
+          "FUNCIONES DE SERVICIOS PUBLICOS GENERALES",
+          "11",
+          "SERVICIOS PUBLICOS GENERALES",
+          "112",
+          "AYUDA ECONOMICA EXTERIOR",
+          "1120",
+          "AYUDA ECONOMICA EXTERIOR",
+          "001",
+          "Ingresos Corrientes",
+          "Ingresos Corrientes",
+          "INTERNO",
+          "160000000.00",
+          "160000000.00",
+          "160000000.00",
+          "0.00",
+          "0.00",
+          "0.00",
+          "76966313.98",
+          "76966313.98"
+        ],
+        [
+          "2018",
+          "11",
+          "101",
+          "Asamblea Legislativa",
+          "002",
+          "Asamblea Legislativa",
+          "00",
+          "",
+          "0",
+          "REMUNERACIONES",
+          "001",
+          "REMUNERACIONES BASICAS",
+          "00105",
+          "SUPLENCIAS",
+          "1",
+          "GASTOS CORRIENTES",
+          "11",
+          "GASTOS DE CONSUMO",
+          "111",
+          "REMUNERACIONES",
+          "1111",
+          "SUELDOS Y SALARIOS",
+          "1",
+          "FUNCIONES DE SERVICIOS PUBLICOS GENERALES",
+          "11",
+          "SERVICIOS PUBLICOS GENERALES",
+          "112",
+          "AYUDA ECONOMICA EXTERIOR",
+          "1120",
+          "AYUDA ECONOMICA EXTERIOR",
+          "001",
+          "Ingresos Corrientes",
+          "Ingresos Corrientes",
+          "INTERNO",
+          "160000000.00",
+          "160000000.00",
+          "160000000.00",
+          "0.00",
+          "0.00",
+          "0.00",
+          "83438588.52",
+          "83438588.52"
+        ],
+        [
+          "2018",
+          "12",
+          "101",
+          "Asamblea Legislativa",
+          "002",
+          "Asamblea Legislativa",
+          "00",
+          "",
+          "0",
+          "REMUNERACIONES",
+          "001",
+          "REMUNERACIONES BASICAS",
+          "00105",
+          "SUPLENCIAS",
+          "1",
+          "GASTOS CORRIENTES",
+          "11",
+          "GASTOS DE CONSUMO",
+          "111",
+          "REMUNERACIONES",
+          "1111",
+          "SUELDOS Y SALARIOS",
+          "1",
+          "FUNCIONES DE SERVICIOS PUBLICOS GENERALES",
+          "11",
+          "SERVICIOS PUBLICOS GENERALES",
+          "112",
+          "AYUDA ECONOMICA EXTERIOR",
+          "1120",
+          "AYUDA ECONOMICA EXTERIOR",
+          "001",
+          "Ingresos Corrientes",
+          "Ingresos Corrientes",
+          "INTERNO",
+          "160000000.00",
+          "160000000.00",
+          "160000000.00",
+          "0.00",
+          "0.00",
+          "0.00",
+          "90070044.53",
+          "90070044.53"
+        ],
+        [
+          "2018",
+          "01",
+          "101",
+          "Asamblea Legislativa",
+          "002",
+          "Asamblea Legislativa",
+          "00",
+          "",
+          "0",
+          "REMUNERACIONES",
+          "002",
+          "REMUNERACIONES EVENTUALES",
+          "00201",
+          "TIEMPO EXTRAORDINARIO",
+          "1",
+          "GASTOS CORRIENTES",
+          "11",
+          "GASTOS DE CONSUMO",
+          "111",
+          "REMUNERACIONES",
+          "1111",
+          "SUELDOS Y SALARIOS",
+          "1",
+          "FUNCIONES DE SERVICIOS PUBLICOS GENERALES",
+          "11",
+          "SERVICIOS PUBLICOS GENERALES",
+          "112",
+          "AYUDA ECONOMICA EXTERIOR",
+          "1120",
+          "AYUDA ECONOMICA EXTERIOR",
+          "001",
+          "Ingresos Corrientes",
+          "Ingresos Corrientes",
+          "INTERNO",
+          "300000000.00",
+          "300000000.00",
+          "300000000.00",
+          "0.00",
+          "0.00",
+          "0.00",
+          "36880284.90",
+          "36880284.90"
+        ],
+        [
+          "2018",
+          "02",
+          "101",
+          "Asamblea Legislativa",
+          "002",
+          "Asamblea Legislativa",
+          "00",
+          "",
+          "0",
+          "REMUNERACIONES",
+          "002",
+          "REMUNERACIONES EVENTUALES",
+          "00201",
+          "TIEMPO EXTRAORDINARIO",
+          "1",
+          "GASTOS CORRIENTES",
+          "11",
+          "GASTOS DE CONSUMO",
+          "111",
+          "REMUNERACIONES",
+          "1111",
+          "SUELDOS Y SALARIOS",
+          "1",
+          "FUNCIONES DE SERVICIOS PUBLICOS GENERALES",
+          "11",
+          "SERVICIOS PUBLICOS GENERALES",
+          "112",
+          "AYUDA ECONOMICA EXTERIOR",
+          "1120",
+          "AYUDA ECONOMICA EXTERIOR",
+          "001",
+          "Ingresos Corrientes",
+          "Ingresos Corrientes",
+          "INTERNO",
+          "300000000.00",
+          "300000000.00",
+          "300000000.00",
+          "0.00",
+          "0.00",
+          "0.00",
+          "59465804.16",
+          "59465804.16"
+        ],
+        [
+          "2018",
+          "03",
+          "101",
+          "Asamblea Legislativa",
+          "002",
+          "Asamblea Legislativa",
+          "00",
+          "",
+          "0",
+          "REMUNERACIONES",
+          "002",
+          "REMUNERACIONES EVENTUALES",
+          "00201",
+          "TIEMPO EXTRAORDINARIO",
+          "1",
+          "GASTOS CORRIENTES",
+          "11",
+          "GASTOS DE CONSUMO",
+          "111",
+          "REMUNERACIONES",
+          "1111",
+          "SUELDOS Y SALARIOS",
+          "1",
+          "FUNCIONES DE SERVICIOS PUBLICOS GENERALES",
+          "11",
+          "SERVICIOS PUBLICOS GENERALES",
+          "112",
+          "AYUDA ECONOMICA EXTERIOR",
+          "1120",
+          "AYUDA ECONOMICA EXTERIOR",
+          "001",
+          "Ingresos Corrientes",
+          "Ingresos Corrientes",
+          "INTERNO",
+          "300000000.00",
+          "300000000.00",
+          "300000000.00",
+          "0.00",
+          "0.00",
+          "0.00",
+          "78630672.31",
+          "78630672.31"
+        ],
+        [
+          "2018",
+          "04",
+          "101",
+          "Asamblea Legislativa",
+          "002",
+          "Asamblea Legislativa",
+          "00",
+          "",
+          "0",
+          "REMUNERACIONES",
+          "002",
+          "REMUNERACIONES EVENTUALES",
+          "00201",
+          "TIEMPO EXTRAORDINARIO",
+          "1",
+          "GASTOS CORRIENTES",
+          "11",
+          "GASTOS DE CONSUMO",
+          "111",
+          "REMUNERACIONES",
+          "1111",
+          "SUELDOS Y SALARIOS",
+          "1",
+          "FUNCIONES DE SERVICIOS PUBLICOS GENERALES",
+          "11",
+          "SERVICIOS PUBLICOS GENERALES",
+          "112",
+          "AYUDA ECONOMICA EXTERIOR",
+          "1120",
+          "AYUDA ECONOMICA EXTERIOR",
+          "001",
+          "Ingresos Corrientes",
+          "Ingresos Corrientes",
+          "INTERNO",
+          "300000000.00",
+          "300000000.00",
+          "300000000.00",
+          "0.00",
+          "0.00",
+          "0.00",
+          "102026706.04",
+          "102026706.04"
+        ],
+        [
+          "2018",
+          "05",
+          "101",
+          "Asamblea Legislativa",
+          "002",
+          "Asamblea Legislativa",
+          "00",
+          "",
+          "0",
+          "REMUNERACIONES",
+          "002",
+          "REMUNERACIONES EVENTUALES",
+          "00201",
+          "TIEMPO EXTRAORDINARIO",
+          "1",
+          "GASTOS CORRIENTES",
+          "11",
+          "GASTOS DE CONSUMO",
+          "111",
+          "REMUNERACIONES",
+          "1111",
+          "SUELDOS Y SALARIOS",
+          "1",
+          "FUNCIONES DE SERVICIOS PUBLICOS GENERALES",
+          "11",
+          "SERVICIOS PUBLICOS GENERALES",
+          "112",
+          "AYUDA ECONOMICA EXTERIOR",
+          "1120",
+          "AYUDA ECONOMICA EXTERIOR",
+          "001",
+          "Ingresos Corrientes",
+          "Ingresos Corrientes",
+          "INTERNO",
+          "300000000.00",
+          "300000000.00",
+          "300000000.00",
+          "0.00",
+          "0.00",
+          "0.00",
+          "133663499.83",
+          "133663499.83"
+        ]
+      ],
+      "model": {
+        "dimensions": {
+          "date": {
+            "dimensionType": "datetime",
+            "primaryKey": [
+              "ejercicio"
+            ],
+            "attributes": {
+              "ejercicio": {
+                "source": "ejercicio",
+                "title": "ejercicio"
+              }
+            }
+          },
+          "unknown": {
+            "dimensionType": "other",
+            "primaryKey": [
+              "mes",
+              "cog_partida_codigo",
+              "cog_partida_descripcion",
+              "cog_grupo_codigo",
+              "cog_grupo_descripcion",
+              "cog_subpartida_codigo",
+              "cog_subpartida_descripcion",
+              "ff_clase1",
+              "ff_clase2"
+            ],
+            "attributes": {
+              "mes": {
+                "source": "mes",
+                "title": "mes"
+              },
+              "cog_partida_codigo": {
+                "source": "cog_partida_codigo",
+                "title": "cog_partida_codigo"
+              },
+              "cog_partida_descripcion": {
+                "source": "cog_partida_descripcion",
+                "title": "cog_partida_descripcion"
+              },
+              "cog_grupo_codigo": {
+                "source": "cog_grupo_codigo",
+                "title": "cog_grupo_codigo"
+              },
+              "cog_grupo_descripcion": {
+                "source": "cog_grupo_descripcion",
+                "title": "cog_grupo_descripcion"
+              },
+              "cog_subpartida_codigo": {
+                "source": "cog_subpartida_codigo",
+                "title": "cog_subpartida_codigo"
+              },
+              "cog_subpartida_descripcion": {
+                "source": "cog_subpartida_descripcion",
+                "title": "cog_subpartida_descripcion"
+              },
+              "ff_clase1": {
+                "source": "ff_clase1",
+                "title": "ff_clase1"
+              },
+              "ff_clase2": {
+                "source": "ff_clase2",
+                "title": "ff_clase2"
+              }
+            }
+          },
+          "administrative-classification": {
+            "dimensionType": "classification",
+            "primaryKey": [
+              "titulo_codigo",
+              "programa_codigo",
+              "subprograma_codigo"
+            ],
+            "attributes": {
+              "titulo_codigo": {
+                "source": "titulo_codigo",
+                "title": "titulo_codigo"
+              },
+              "titulo_descripcion": {
+                "source": "titulo_descripcion",
+                "title": "titulo_descripcion",
+                "labelfor": "titulo_codigo"
+              },
+              "programa_codigo": {
+                "source": "programa_codigo",
+                "title": "programa_codigo",
+                "parent": "titulo_codigo"
+              },
+              "programa_descripcion": {
+                "source": "programa_descripcion",
+                "title": "programa_descripcion",
+                "labelfor": "programa_codigo"
+              },
+              "subprograma_codigo": {
+                "source": "subprograma_codigo",
+                "title": "subprograma_codigo",
+                "parent": "programa_codigo"
+              },
+              "subprograma_descripcion": {
+                "source": "subprograma_descripcion",
+                "title": "subprograma_descripcion",
+                "labelfor": "subprograma_codigo"
+              }
+            },
+            "classificationType": "administrative"
+          },
+          "economic-classification": {
+            "dimensionType": "classification",
+            "primaryKey": [
+              "ce_partida_codigo",
+              "ce_grupo_codigo",
+              "ce_subpartida_codigo",
+              "ce_renglon_codigo"
+            ],
+            "attributes": {
+              "ce_partida_codigo": {
+                "source": "ce_partida_codigo",
+                "title": "ce_partida_codigo"
+              },
+              "ce_partida_descripcion": {
+                "source": "ce_partida_descripcion",
+                "title": "ce_partida_descripcion",
+                "labelfor": "ce_partida_codigo"
+              },
+              "ce_grupo_codigo": {
+                "source": "ce_grupo_codigo",
+                "title": "ce_grupo_codigo",
+                "parent": "ce_partida_codigo"
+              },
+              "ce_grupo_descripcion": {
+                "source": "ce_grupo_descripcion",
+                "title": "ce_grupo_descripcion"
+              },
+              "ce_subpartida_codigo": {
+                "source": "ce_subpartida_codigo",
+                "title": "ce_subpartida_codigo",
+                "parent": "ce_grupo_codigo"
+              },
+              "ce_subpartida_descripcion": {
+                "source": "ce_subpartida_descripcion",
+                "title": "ce_subpartida_descripcion",
+                "labelfor": "ce_subpartida_codigo"
+              },
+              "ce_renglon_codigo": {
+                "source": "ce_renglon_codigo",
+                "title": "ce_renglon_codigo",
+                "parent": "ce_subpartida_codigo"
+              },
+              "ce_renglon_descripcion": {
+                "source": "ce_renglon_descripcion",
+                "title": "ce_renglon_descripcion",
+                "labelfor": "ce_renglon_codigo"
+              }
+            },
+            "classificationType": "economic"
+          },
+          "functional-classification": {
+            "dimensionType": "classification",
+            "primaryKey": [
+              "cf_clase_codigo",
+              "cf_subclase_codigo",
+              "cf_grupo_codigo",
+              "cf_subgrupo_codigo"
+            ],
+            "attributes": {
+              "cf_clase_codigo": {
+                "source": "cf_clase_codigo",
+                "title": "cf_clase_codigo"
+              },
+              "cf_clase_descripcion": {
+                "source": "cf_clase_descripcion",
+                "title": "cf_clase_descripcion",
+                "labelfor": "cf_clase_codigo"
+              },
+              "cf_subclase_codigo": {
+                "source": "cf_subclase_codigo",
+                "title": "cf_subclase_codigo",
+                "parent": "cf_clase_codigo"
+              },
+              "cf_subclase_descripcion": {
+                "source": "cf_subclase_descripcion",
+                "title": "cf_subclase_descripcion",
+                "labelfor": "cf_subclase_codigo"
+              },
+              "cf_grupo_codigo": {
+                "source": "cf_grupo_codigo",
+                "title": "cf_grupo_codigo",
+                "parent": "cf_subclase_codigo"
+              },
+              "cf_grupo_descripcion": {
+                "source": "cf_grupo_descripcion",
+                "title": "cf_grupo_descripcion",
+                "labelfor": "cf_grupo_codigo"
+              },
+              "cf_subgrupo_codigo": {
+                "source": "cf_subgrupo_codigo",
+                "title": "cf_subgrupo_codigo",
+                "parent": "cf_grupo_codigo"
+              },
+              "cf_subgrupo_descripcion": {
+                "source": "cf_subgrupo_descripcion",
+                "title": "cf_subgrupo_descripcion",
+                "labelfor": "cf_subgrupo_codigo"
+              }
+            },
+            "classificationType": "functional"
+          },
+          "fin-source": {
+            "dimensionType": "other",
+            "primaryKey": [
+              "ff_codigo"
+            ],
+            "attributes": {
+              "ff_codigo": {
+                "source": "ff_codigo",
+                "title": "ff_codigo"
+              },
+              "ff_descripcion": {
+                "source": "ff_descripcion",
+                "title": "ff_descripcion",
+                "labelfor": "ff_codigo"
+              }
+            }
+          }
+        },
+        "measures": {
+          "pi_monto": {
+            "source": "pi_monto",
+            "title": "pi_monto"
+          },
+          "pp_monto": {
+            "source": "pp_monto",
+            "title": "pp_monto"
+          },
+          "li_monto": {
+            "source": "li_monto",
+            "title": "li_monto"
+          },
+          "so_monto": {
+            "source": "so_monto",
+            "title": "so_monto"
+          },
+          "co_monto": {
+            "source": "co_monto",
+            "title": "co_monto"
+          },
+          "rm_monto": {
+            "source": "rm_monto",
+            "title": "rm_monto"
+          },
+          "de_monto": {
+            "source": "de_monto",
+            "title": "de_monto"
+          },
+          "pa_monto": {
+            "source": "pa_monto",
+            "title": "pa_monto"
+          }
+        }
+      }
     }
   ],
   "title": "Costa Rica Egresos",
@@ -2529,7 +5040,9 @@
   "periodicity": "Yearly",
   "years_included": [
     "2017",
-    "2018"
+    "2018",
+    "2019",
+    "2020"
   ],
   "start_date": "2017-01-01",
   "end_date": "2018-12-31",
