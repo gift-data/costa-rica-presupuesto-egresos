@@ -1,6 +1,6 @@
 {
   "name": "costa-rica-presupuesto-egresos",
-  "id": "R_kgDOGXeikQ",
+  "id": "R_kgDOGLgIEA",
   "encoding": "utf_8",
   "format": "csv",
   "resources": [
@@ -5048,5 +5048,8 @@
   "end_date": "2018-12-31",
   "continent": "South America",
   "createdAt": "2021-10-07T18:24:44Z",
-  "updatedAt": "2021-10-28T20:06:13Z"
+  "updatedAt": "2021-11-12T11:16:50Z",
+  "author_website": "https://www.hacienda.go.cr/",
+  "author_email": "presupuestoabierto@hacienda.go.cr",
+  "country": "Costa Rica"
 }
