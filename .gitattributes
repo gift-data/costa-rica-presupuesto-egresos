@@ -1,3 +1,4 @@
 data/egreso2019ene_dic__2019.csv filter=lfs diff=lfs merge=lfs -text
 data/egreso2020ene_feb2__2020.csv filter=lfs diff=lfs merge=lfs -text
 data/egreso2022.csv filter=lfs diff=lfs merge=lfs -text
+data/egreso2021.csv filter=lfs diff=lfs merge=lfs -text
