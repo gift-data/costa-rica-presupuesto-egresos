@@ -8820,9 +8820,9 @@
   "title": "costaricaegresosprueba2022",
   "description": "Spending information of the central government of Costa Rica.",
   "tags": [
-    "National"
+    "National2"
   ],
-  "govt_level": "Provincial",
+  "govt_level": "Regional",
   "budget_stage": [
     "Enacted",
     "Year-end"
